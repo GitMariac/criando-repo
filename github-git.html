@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub e Git</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: #f6f8fa;
+      color: #1f2328;
+      line-height: 1.6;
+    }
+    header {
+      background: #24292f;
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .mark {
+      width: 34px;
+      height: 34px;
+      border: 2px solid white;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+    }
+    header strong { font-size: 19px; }
+    main {
+      max-width: 900px;
+      margin: 55px auto;
+      padding: 0 24px;
+    }
+    .eyebrow {
+      color: #656d76;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 42px;
+      line-height: 1.15;
+      margin: 0 0 18px;
+      letter-spacing: -1px;
+    }
+    .intro {
+      font-size: 19px;
+      color: #656d76;
+      max-width: 760px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #d0d7de;
+      border-radius: 10px;
+      padding: 28px;
+      margin-top: 30px;
+      box-shadow: 0 1px 2px rgba(31,35,40,.05);
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    code {
+      background: #eff1f3;
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-size: .92em;
+    }
+    .source {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid #d8dee4;
+      font-size: 14px;
+      color: #656d76;
+    }
+    a {
+      color: #0969da;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      color: #656d76;
+      font-size: 13px;
+      padding: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="mark">GH</div>
+    <strong>GitHub Docs</strong>
+  </header>
+
+  <main>
+    <div class="eyebrow">INTRODUÇÃO • CONTROLE DE VERSÃO</div>
+
+    <h1>GitHub e Git</h1>
+
+    <p class="intro">
+      O GitHub é uma plataforma para criação de software que reúne ferramentas
+      e fluxos de trabalho para diferentes etapas do desenvolvimento.
+    </p>
+
+    <section class="card">
+      <h2>O que é o Git?</h2>
+
+      <p>
+        Segundo a documentação oficial do GitHub, o Git é um sistema de
+        controle de versão distribuído que acompanha as alterações realizadas
+        nos arquivos de um projeto. Ele permite registrar um histórico das
+        modificações e recuperar versões anteriores quando necessário.
+      </p>
+
+      <p>
+        Em um projeto, os desenvolvedores podem trabalhar em suas próprias
+        cópias, registrar suas alterações e posteriormente combinar seu
+        trabalho com o de outros integrantes. Os <code>commits</code>
+        funcionam como registros das alterações, enquanto os <code>branches</code>
+        permitem trabalhar em diferentes linhas de desenvolvimento.
+      </p>
+
+      <h2>Por que o GitHub é importante?</h2>
+
+      <p>
+        O GitHub utiliza o Git como base para hospedar repositórios e acrescenta
+        recursos voltados à colaboração. Dessa forma, equipes podem armazenar
+        código, acompanhar alterações, revisar contribuições e trabalhar de
+        maneira organizada em projetos de software.
+      </p>
+
+      <div class="source">
+        <strong>Fonte:</strong> GitHub Docs.
+        <br>
+        <a href="https://docs.github.com/pt/get-started/using-git/about-git"
+           target="_blank" rel="noopener noreferrer">
+          Documentação oficial — Sobre o Git
+        </a>
+        <br>
+        <a href="https://docs.github.com/pt/get-started/start-your-journey/what-is-github"
+           target="_blank" rel="noopener noreferrer">
+          Documentação oficial — O que é o GitHub?
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Página acadêmica demonstrativa baseada na documentação oficial do GitHub.
+  </footer>
+</body>
+</html>

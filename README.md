@@ -29,3 +29,20 @@ Já no Bash, direcionamos a pasta na qual iremos trabalhar e clonamos nosso repo
 Feito isso, abrimos o VScode já na pasta e criamos um README.md em seguida uma pasta assets para adicionarmos gravuras posteriormente.
 
 ![Terminal do VSCode](assets/4.png)
+
+Feito isso podemos já abrir nossa página do GitHub e conferir as alterações feitas no nosso repositório, tanto a criação do README.me quanto a pasta com as imagens. 
+
+![Terminal do VsCode](assets/5.png)
+
+Observe que foi digitado o comando de branch errado (bramch), mas isso não interfere no nosso processo pois o comando não é reconhecido logo não é realizado nenhuma ação. 
+
+Feito isso podemos já abrir nossa página do GitHub e conferir as alterações feitas no nosso repositório, tanto a criação do README.me quanto a pasta com as imagens. 
+
+![Página do repositório no Github](assets/6.jpeg)
+
+
+## Considerações finais
+
+Dado tais pressupostos e seguindo as norteações do enunciado desta aula prática, entendemos que as competências desenvolvidas com o uso de ferramentas de gestão de configuração contribuem diretamente para a confiabilidade das tarefas realizadas por uma equipe de desenvolvimento de software. De acordo com a documentação do próprio GitHub, o seu sistemas de controle de versão registram o histórico das alterações, permitindo identificar quais mudanças foram realizadas, por quem e quando. Dessa forma, o uso de repositórios, commits e branches proporcionam maior organização, rastreabilidade e segurança durante o desenvolvimento, além de facilitar a colaboração entre os integrantes da equipe. 
+
+Em ambientes reais, a utilização de uma ferramenta de gestão de configuração é importante porque diversos profissionais podem trabalhar simultaneamente no mesmo projeto, tornando necessário controlar e documentar as alterações realizadas. O GitHub possibilita o uso de pull requests para propor, discutir e revisar mudanças antes que sejam incorporadas ao projeto principal, ajudando a identificar problemas antecipadamente e manter a qualidade do código. Assim, a gestão de configuração reduz riscos, facilita a recuperação de versões anteriores e proporciona maior controle sobre os artefatos produzidos durante o desenvolvimento de software. 
